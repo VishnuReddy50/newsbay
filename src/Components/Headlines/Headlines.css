@@ -1,0 +1,50 @@
+.headlines {
+	box-shadow: 7px 7px 14px #666666,
+		-7px -7px 14px #ffffff;
+}
+
+.carousel img {
+	height: 50vh;
+	width: 100vw;
+}
+
+.carousel {
+	z-index: 1;
+	margin-top: 5vh;
+}
+
+.carousel .caption {
+	/* font-family: 'Quicksand', sans-serif; */
+	/* font-family: 'Oxygen', sans-serif; */
+	font-family: 'Libre Franklin', sans-serif;
+	font-style: italic;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+	border-radius: 0 0 10px 10px;
+}
+
+.carousel .caption h3 {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.carousel .caption p {
+	font-size: 18px;
+	font-weight: 550;
+}
+
+@media (max-width: 1250px) {
+	.carousel {
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 600px) {
+	.carousel .caption h3 {
+		font-size: 13px;
+	}
+
+	.carousel .caption p {
+		font-size: 11px;
+	}
+
+}

@@ -1,0 +1,23 @@
+ useEffect(() => {
+    fetch(`https://newsapi.org/v2/top-headlines?sortBy=popularity&language=en&pageSize=11&apiKey=${key2}`)
+      .then(response => response.json())
+      .then((api) => {
+        const data = api.articles.filter((article) => {
+          return article.urlToImage && article.title && article.description;
+        })
+        setHeadData(data);
+      })
+  }, []);
+
+  const [ politics, setPolitics ] = useState([]);
+  useEffect(() => {
+    fetch(`https://newsapi.org/v2/top-headlines?country=us&language=en&pageSize=21&sortBy=popularity&apiKey=${key2}`)
+      .then(response => response.json())
+      .then((api) => {
+        const data = api.articles.filter((article) => {
+          return article.urlToImage && article.title && article.description;
+        })
+        setPolitics(data);
+      })
+  }, []);
+

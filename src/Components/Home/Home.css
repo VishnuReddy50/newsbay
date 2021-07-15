@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* 
+	font-family: 'Major Mono Display', monospace;
+	font-family: 'Vast Shadow', cursive; 
+	font-family: 'Roboto Mono',	monospace;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Oxygen', sans-serif;
+	font-family: 'Libre Franklin', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+*/
+
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
+	background-color: #ffffff;
+}
+
+.home {
+	overflow-x: auto;
+}
+
+.home::-webkit-scrollbar {
+	display: none;
+}

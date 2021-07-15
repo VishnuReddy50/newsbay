@@ -1,0 +1,132 @@
+const data = [
+		{
+			"source": {
+				"id": null,
+				"name": "NDTV News"
+			},
+			"author": null,
+			"title": "Al Qaeda Module Busted In UP Planned Suicide Attacks In Lucknow: Police - NDTV",
+			"description": "An Al Qaeda unit busted in Uttar Pradesh planned terrorist attacks in crowded areas of Lucknow and other cities in the state, the police said on Sunday.",
+			"url": "https://www.ndtv.com/india-news/al-qaeda-module-busted-in-up-planned-suicide-attacks-in-lucknow-says-police-2484185",
+			"urlToImage": "https://c.ndtvimg.com/2021-07/l6dj4cjs_up-al-qaeda-terrorist-suspects-ndtv_625x300_11_July_21.jpg",
+			"publishedAt": "2021-07-11T11:46:08Z",
+			"content": "Both suspects arrested in the case are residents of Lucknow district, the police said. Lucknow: An Al Qaeda unit busted in Uttar Pradesh planned terrorist attacks in crowded areas of Lucknow and oth… [+602 chars]"
+		},
+		{
+			"source": {
+				"id": null,
+				"name": "Mathrubhumi.com"
+			},
+			"author": "Mathrubhumi",
+			"title": "Kerala confirms 3 new Zika virus cases, 26 people test negative - Mathrubhumi English",
+			"description": "Thiruvananthapuram: Health Minister Veena George has informed that three new cases of Zika virus have been confirmed in the state. The samples sent from a private hospital in Thiruvananthapuram to a lab in Coimbatore tested positive on Sunday. Among the new …",
+			"url": "https://english.mathrubhumi.com/news/kerala/kerala-confirms-3-new-zika-virus-cases-26-people-test-negative-kerala-1.5821230",
+			"urlToImage": "https://english.mathrubhumi.com/polopoly_fs/1.5821144.1625988423!/image/image.jpg_gen/derivatives/landscape_1080_600/image.jpg",
+			"publishedAt": "2021-07-11T11:27:00Z",
+			"content": "Thiruvananthapuram: Health Minister Veena George has informed that three new cases of Zika virus have been confirmed in the state. The samples sent from a private hospital in Thiruvananthapuram to a … [+553 chars]"
+		},
+		{
+			"source": {
+				"id": "google-news",
+				"name": "Google News"
+			},
+			"author": null,
+			"title": "Chinese show banners at Indian villagers celebrating the Dalai Lama’s birthday - The Hindu",
+			"description": null,
+			"url": "https://news.google.com/__i/rss/rd/articles/CBMiiAFodHRwczovL3d3dy50aGVoaW5kdS5jb20vbmV3cy9uYXRpb25hbC9jaGluZXNlLXNob3ctYmFubmVycy1hdC1pbmRpYW4tdmlsbGFnZXJzLWNlbGVicmF0aW5nLXRoZS1kYWxhaS1sYW1hcy1iaXJ0aGRheS9hcnRpY2xlMzUyNjM0MzguZWNl0gGNAWh0dHBzOi8vd3d3LnRoZWhpbmR1LmNvbS9uZXdzL25hdGlvbmFsL2NoaW5lc2Utc2hvdy1iYW5uZXJzLWF0LWluZGlhbi12aWxsYWdlcnMtY2VsZWJyYXRpbmctdGhlLWRhbGFpLWxhbWFzLWJpcnRoZGF5L2FydGljbGUzNTI2MzQzOC5lY2UvYW1wLw?oc=5",
+			"urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2017_25/2048001/dallas-tx-votinglocation.jpg",
+			"publishedAt": "2021-07-11T10:54:09Z",
+			"content": null
+		},
+		{
+			"source": {
+				"id": null,
+				"name": "India Education Diary"
+			},
+			"author": "India Education Diary Bureau Admin",
+			"title": "NASA, Northrop Grumman Finalize Moon Outpost Living Quarters Contract - India Education Diary",
+			"description": "NASA and Northrop Grumman of Dulles, Virginia, have finalized a contract to develop the Habitation and Logistics Outpost (HALO) for Gateway, which will be a critical way station and outpost in orbit around the Moon as part of NASA’s Artemis program.N",
+			"url": "https://indiaeducationdiary.in/nasa-northrop-grumman-finalize-moon-outpost-living-quarters-contract/",
+			"urlToImage": "https://indiaeducationdiary.in/wp-content/uploads/2020/04/NASA-1024x576.jpg",
+			"publishedAt": "2021-07-11T10:38:38Z",
+			"content": "NASA and Northrop Grumman of Dulles, Virginia, have finalized a contract to develop the Habitation and Logistics Outpost (HALO) for Gateway, which will be a critical way station and outpost in orbit … [+5846 chars]"
+		},
+		{
+			"source": {
+				"id": null,
+				"name": "India.com"
+			},
+			"author": "India.com News Desk",
+			"title": "High Speed Solar Storm to Hit Earth; May Impact Cellphone, GPS Signals - India.com",
+			"description": "As per the US space agency, NASA, the speed of the solar storm could even go beyond the expected 1.6 million kilometres per hour.",
+			"url": "https://www.india.com/news/world/high-speed-solar-storm-to-hit-earth-may-impact-cellphone-gps-signals-4804634/",
+			"urlToImage": "https://static.india.com/wp-content/uploads/2017/11/Solar-storm.jpg",
+			"publishedAt": "2021-07-11T10:32:21Z",
+			"content": "Home &gt; News &gt; World Published: July 11, 2021 4:02 PM IST By India.com News DeskEmail Edited by PriyankaEmail New Delhi: A powerful solar storm is approaching the Earth at a very high sp… [+1490 chars]"
+		},
+		{
+			"source": {
+				"id": "techradar",
+				"name": "TechRadar"
+			},
+			"author": "Darren Allan",
+			"title": "Windows 11 blocks testers from using classic Windows 10 Start menu - Techradar",
+			"description": "Fudge to get the traditional Start menu back is removed in new preview build",
+			"url": "https://www.techradar.com/news/windows-11-blocks-testers-from-using-classic-windows-10-start-menu",
+			"urlToImage": "https://cdn.mos.cms.futurecdn.net/9A5Dbf7uCci5uWModtxRJK-1200-80.jpg",
+			"publishedAt": "2021-07-11T10:20:13Z",
+			"content": "Windows 11 has fully blocked the ability to switch back to the traditional Windows 10 Start menu in the latest preview build of the incoming OS, disappointing some testers in the process. This isnt … [+2063 chars]"
+		},
+		{
+			"source": {
+				"id": "google-news",
+				"name": "Google News"
+			},
+			"author": null,
+			"title": "Buenos Aires erupts as Argentina beat Brazil in Copa América final - Guardian Football",
+			"description": null,
+			"url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9WnNZeHhlZVhvbzjSAQA?oc=5",
+			"urlToImage": "https://www.gannett-cdn.com/media/2020/09/11/Austin/ghows-TX-200629744-fc0e8156.jpg?auto=webp&crop=2400,1350,x0,y125&format=pjpg&width=1200",
+			"publishedAt": "2021-07-11T10:16:28Z",
+			"content": null
+		},
+		{
+			"source": {
+				"id": null,
+				"name": "Livemint"
+			},
+			"author": "PTI",
+			"title": "Centre seeks legal opinion to let BPCL sell subsidised LPG after stake sale - Mint",
+			"description": "Once BPCL is privatised, the LPG Control Order will bar ONGC and GAIL from selling LPG to it.With no access to indigenously produced LPG after privatisation, BPCL won't be able to serve its customers",
+			"url": "https://www.livemint.com/industry/energy/centre-seeks-legal-opinion-to-let-bpcl-sell-subsidised-lpg-after-stake-sale-11625996964129.html",
+			"urlToImage": "https://images.livemint.com/img/2021/07/11/600x338/2020-09-29T142606Z_423281362_RC2E8J97887B_RTRMADP_3_INDIA-BPCL-PRIVATISATION_1605536750651_1605536779420_1625997368622.JPG",
+			"publishedAt": "2021-07-11T10:11:49Z",
+			"content": "A two-decade-old LPG supply order restricting supply of domestically produced LPG to only state-owned oil companies has stymied plans to allow Bharat Petroleum Corporation Ltd (BPCL) to continue sell… [+4216 chars]"
+		},
+		{
+			"source": {
+				"id": null,
+				"name": "India Today"
+			},
+			"author": null,
+			"title": "iPhone 12 Night mode selfies teased in a new ad video - India Today",
+			"description": "Apple released a new commercial highlighting their iPhone 12 front camera’s Night mode selfie capabilities.",
+			"url": "https://www.indiatoday.in/technology/news/story/iphone-12-night-mode-selfies-teased-in-a-new-ad-video-1826652-2021-07-11",
+			"urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202107/iphone12-red-it_0-647x363.jpeg?neTWHfta1HMVmOIMt_GEG23xiU5kgw.9",
+			"publishedAt": "2021-07-11T09:54:19Z",
+			"content": null
+		},
+		{
+			"source": {
+				"id": null,
+				"name": "NDTV News"
+			},
+			"author": null,
+			"title": "Air Defences Installed At Kabul Airport As Taliban Gain Ground - NDTV",
+			"description": "Afghanistan's Kabul airport has been fitted with an air defence system to counter incoming rockets, officials said Sunday, as the Taliban pressed on with a blistering offensive across the country.",
+			"url": "https://www.ndtv.com/world-news/afghanistan-air-defences-installed-at-kabul-airport-as-taliban-gain-ground-2484103",
+			"urlToImage": "https://c.ndtvimg.com/taliban-generic-650_625x300_1530457303276.jpg",
+			"publishedAt": "2021-07-11T09:31:48Z",
+			"content": "The insurgents have routed much of northern Afghanistan in recent weeks. (File) Kabul: Afghanistan's Kabul airport has been fitted with an air defence system to counter incoming rockets, officials s… [+4072 chars]"
+		}
+	]
