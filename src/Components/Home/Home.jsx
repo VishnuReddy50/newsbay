@@ -119,31 +119,31 @@ function Home() {
           news={politics}
         />
       )}
-      {headData && (
+      {science && (
         <Row
           title="Science"
           news={science}
         />
       )}
-      {headData && (
+      {technology && (
         <Row
           title="Technology"
           news={technology}
         />
       )}
-      {headData && (
+      {entertainment && (
         <Row
           title="Entertainment"
           news={entertainment}
         />
       )}
-      {headData && (
+      {sports && (
         <Row
           title="Sports"
           news={sports}
         />
       )}
-      {headData && (
+      {business && (
         <Row
           title="Business"
           news={business}
